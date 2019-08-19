@@ -4,7 +4,7 @@ USER root
 
 
 #REMOVE 3.5
-RUN apt-get update && apt-get remove -y python3.5
+#RUN apt-get update && apt-get remove -y python3.5
 
 #BUILD DEPS
 RUN apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
